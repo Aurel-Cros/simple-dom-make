@@ -124,4 +124,5 @@ What you can feed the make method with.
 
 | Version | Date     | Notes                                                                                                     |
 | ------- | -------- | --------------------------------------------------------------------------------------------------------- |
+| 1.0.2   | 20/10/25 | Fix README (whoopsie).                                                                                    |
 | 1.0.1   | 20/10/25 | Tag property is now optional and defaults to TEXTNODE. Makes for less verbose objects and quicker coding. |
