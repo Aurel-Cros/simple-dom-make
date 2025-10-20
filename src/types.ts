@@ -1,5 +1,5 @@
 export type NodeStructure = {
-    tag: (keyof HTMLElementTagNameMap) | 'TEXTNODE',
+    tag?: (keyof HTMLElementTagNameMap) | 'TEXTNODE',
     attributes?: {
         [key: string]: string;
     },

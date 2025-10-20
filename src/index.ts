@@ -28,7 +28,7 @@ export default abstract class DOMTreeBuilder {
      */
 
     private static build(structure: NodeStructure): Node {
-        if (structure.tag === 'TEXTNODE') {
+        if (structure.tag === 'TEXTNODE' || !structure.tag) {
             const textNode = new Node();
             textNode.nodeValue = structure.content || '';
             return textNode;
