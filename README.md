@@ -1,10 +1,10 @@
 # Simple DOM builder
 Lightweight, no headache JSON to DOM utility.
 
-## What is does
+## What it does
 Feed it a JS object, get a DOM element back.
 
-## What is doesn't
+## What it doesn't
 Replace a templating engine, or any kind of state management. This was never meant to replace React or anything.
 
 ## Why use it ?
@@ -113,9 +113,14 @@ This would output the following HTML in your browser :
 
 ## The JS object in details
 What you can feed the make method with.
-| Property                | Type   | Note                                                                                          |
-| ----------------------- | ------ | --------------------------------------------------------------------------------------------- |
-| tag                     | string | Should be an HTML tag (a, abbr, div...) or "TEXTNODE" if you only want to give it plain text. |
-| attributes *(optional)* | object | Key value pairs, where the key is the attribute name, and the value its value.                |
-| content *(optional)*    | string | Text content of the element - shortcut for putting a TEXTNODE as a child element              |
-| children *(optional)*   | array  | An array of that same structure                                                               |
+| Property                | Type   | Note                                                                                                                |
+| ----------------------- | ------ | ------------------------------------------------------------------------------------------------------------------- |
+| tag *(optional)*        | string | Should be an HTML tag (a, abbr, div...) or "TEXTNODE" if you only want to give it plain text. Defaults to TEXTNODE. |
+| attributes *(optional)* | object | Key value pairs, where the key is the attribute name, and the value its value.                                      |
+| content *(optional)*    | string | Text content of the element - shortcut for putting a TEXTNODE as a child element                                    |
+| children *(optional)*   | array  | An array of that same structure                                                                                     |
+
+## Patch notes
+
+| Version | Date | Notes
+| 1.0.1 | 20/10/25 | Tag property is now optional and defaults to TEXTNODE. Makes for less verbose objects and quicker coding.
