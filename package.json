@@ -1,6 +1,6 @@
 {
   "name": "simple-dom-make",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A lightweight helper to build DOM trees dynamically.",
   "license": "ISC",
   "author": "Aurel-Cros",
