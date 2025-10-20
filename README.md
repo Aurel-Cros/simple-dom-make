@@ -122,5 +122,6 @@ What you can feed the make method with.
 
 ## Patch notes
 
-| Version | Date | Notes
-| 1.0.1 | 20/10/25 | Tag property is now optional and defaults to TEXTNODE. Makes for less verbose objects and quicker coding.
+| Version | Date     | Notes                                                                                                     |
+| ------- | -------- | --------------------------------------------------------------------------------------------------------- |
+| 1.0.1   | 20/10/25 | Tag property is now optional and defaults to TEXTNODE. Makes for less verbose objects and quicker coding. |
